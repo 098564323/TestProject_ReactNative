@@ -184,9 +184,7 @@ export default class Profile extends React.Component {
                                         editable = {this.state.isDescriptionEdiatable}
                                          onChangeText={(description) => this.setState({description})}
                                          value={this.state.description}
-                                        //style={[newStyle]}
-                                        maxLength={50}
-                                        multiline={true}/>
+                                         multiline={true}/>
 
                               </View>
 
