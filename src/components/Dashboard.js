@@ -7,6 +7,7 @@ import Explore from '../components/Explore';
 import Profile from '../components/Profile';
 
 class Dashboard extends React.Component {
+
     render() {
       return (
         <View/>
