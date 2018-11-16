@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image,StyleSheet} from 'react-native';
+import {Image} from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 import * as globalStyles from '../styles/global';
 import Chat from '../components/Chat';
@@ -13,7 +13,7 @@ class Dashboard extends React.Component {
         <View/>
       );
     }
-  }
+}
 
 const ExploreStack = createStackNavigator({
   Explore: { screen: Explore }
@@ -67,13 +67,13 @@ export default createBottomTabNavigator(
     /*Bottom TabBar Style */
     tabBarOptions: {
       style: {
-              borderTopColor: 'transparent',
-              borderTopWidth: 0,
-              paddingRight: 0,
-              paddingLeft: 0,
-              borderTopWidth: 0,
-              borderTopColor: "gray"
-        }
+        borderTopColor: 'transparent',
+        borderTopWidth: 0,
+        paddingRight: 0,
+        paddingLeft: 0,
+        borderTopWidth: 0,
+        borderTopColor: "gray"
+      }
     },
     /*Starting tab */
     initialRouteName: 'Profile',
